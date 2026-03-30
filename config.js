@@ -41,7 +41,7 @@ const CONFIG = {
     venue: "Burnaby Lake Pavilion",
     address: "6871 Roberts St, Burnaby, BC V5E 3N3",
     mapLinks: {
-      Google: "https://maps.app.goo.gl/Fn96uB5ivuriXtxj9",
+      google: "https://maps.app.goo.gl/kuD7m4y4uLNSnLHb8",
       
     }
   },
