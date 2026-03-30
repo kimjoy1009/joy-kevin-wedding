@@ -204,7 +204,7 @@
         ctx.translate(this.x, this.y);
         ctx.rotate(this.rotation);
         ctx.globalAlpha = this.opacity;
-        ctx.fillStyle = '#e8c8b0';
+        ctx.fillStyle = '#F2F4F7';
         ctx.beginPath();
         // Petal shape
         ctx.moveTo(0, 0);
@@ -273,7 +273,7 @@
       }
 
       const totalDays = Math.ceil(diff / (1000 * 60 * 60 * 24));
-      labelEl.textContent = `결혼식까지 D-${totalDays}`;
+      labelEl.textContent = `지윤 ♥ 조이의 결혼식이 ${totalDays}일 남았습니다.`;
 
       const days = Math.floor(diff / (1000 * 60 * 60 * 24));
       const hours = Math.floor((diff / (1000 * 60 * 60)) % 24);
