@@ -562,7 +562,7 @@
     $('#locationAddress').textContent = w.address;
     $('#locationTel').textContent = w.tel ? `Tel. ${w.tel}` : '';
     $('#locationMapImg').src = 'images/location/1.jpg';
-    $('#kakaoMapBtn').href = w.mapLinks.kakao || '#';
+    $('#googleMapBtn').href = w.mapLinks.google || '#';
     $('#naverMapBtn').href = w.mapLinks.naver || '#';
 
     $('#copyAddressBtn').addEventListener('click', () => {
