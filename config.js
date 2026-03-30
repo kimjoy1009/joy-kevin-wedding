@@ -42,7 +42,6 @@ const CONFIG = {
     address: "6871 Roberts St, Burnaby, BC V5E 3N3",
     mapLinks: {
       google: "https://maps.app.goo.gl/kuD7m4y4uLNSnLHb8",
-      
     }
   },
 
