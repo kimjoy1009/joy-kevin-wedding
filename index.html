@@ -140,34 +140,40 @@
     </section>
 
     <!-- ─── Location Section ─── -->
-    <section class="section location" id="location">
-      <div class="section__inner">
-        <h2 class="section__title animate-item" data-animate="fade-up">오시는 길</h2>
-        <div class="location__info animate-item" data-animate="fade-up">
-          <p class="location__venue" id="locationVenue"></p>
-          <p class="location__hall" id="locationHall"></p>
-          <p class="location__address" id="locationAddress"></p>
-          <p class="location__tel" id="locationTel"></p>
-        </div>
-       <div class="location__links animate-item" data-animate="fade-up">
-  <a class="btn btn--outline location__copy" id="copyAddressBtn">
-    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
-      <rect x="9" y="9" width="13" height="13" rx="2"/>
-      <path d="M5 15H4a2 2 0 01-2-2V4a2 2 0 012-2h9a2 2 0 012 2v1"/>
-    </svg>
-    주소 복사
-  </a>
+   <section class="section location" id="location">
+  <div class="section__inner">
+    <h2 class="section__title animate-item" data-animate="fade-up">오시는 길</h2>
 
-  <a class="btn btn--google" id="googleMapBtn" href="#" target="_blank" rel="noopener">
-    구글맵
-  </a>
-</div>
-        <div class="location__map animate-item" data-animate="scale-in">
-          <img class="location__map-img" id="locationMapImg" src="" alt="약도" loading="lazy">
-        </div>
-        <p class="location__parking"> 건물 바로 앞 넉넉한 무료 주차 공간이 마련되어 있습니다.</p>
+    <div class="location__info animate-item" data-animate="fade-up">
+      <p class="location__venue" id="locationVenue"></p>
+      <p class="location__hall" id="locationHall"></p>
+      <p class="location__address" id="locationAddress"></p>
+      <p class="location__tel" id="locationTel"></p>
     </div>
-    </section>
+
+    <div class="location__links animate-item" data-animate="fade-up">
+      <a class="btn btn--outline location__copy" id="copyAddressBtn" href="javascript:void(0)">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+          <rect x="9" y="9" width="13" height="13" rx="2"/>
+          <path d="M5 15H4a2 2 0 01-2-2V4a2 2 0 012-2h9a2 2 0 012 2v1"/>
+        </svg>
+        주소 복사
+      </a>
+
+      <a class="btn btn--google" id="googleMapBtn" href="#" target="_blank" rel="noopener">
+        구글맵
+      </a>
+    </div>
+
+    <div class="location__map animate-item" data-animate="scale-in">
+      <img class="location__map-img" id="locationMapImg" src="" alt="약도" loading="lazy">
+    </div>
+
+    <p class="location__parking">
+      건물 바로 앞 넉넉한 무료 주차 공간이 마련되어 있습니다.
+    </p>
+  </div>
+</section>
 
     <!-- ─── Account Section (축의금) ─── -->
     <section class="section account" id="account">
