@@ -790,6 +790,23 @@ a {
   justify-content: center;
 }
 
+.location__actions {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin-bottom: var(--spacing-lg);
+}
+
+.btn--google {
+  background-color: #4285F4;
+  color: #fff;
+  border: none;
+}
+
+.btn--google:hover {
+  background-color: #3367d6;
+}
+
 /* ═══════════════════════════════════════════
    Account Section (축의금)
    ═══════════════════════════════════════════ */
