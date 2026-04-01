@@ -797,14 +797,22 @@ a {
   margin-bottom: var(--spacing-lg);
 }
 
-.btn--google {
+.location__actions .btn--google {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 18px;
+  border-radius: 999px;
   background-color: #4285F4;
   color: #fff;
-  border: none;
+  border: 1px solid #4285F4;
+  text-decoration: none;
 }
 
-.btn--google:hover {
+.location__actions .btn--google:hover {
   background-color: #3367d6;
+  border-color: #3367d6;
+  color: #fff;
 }
 
 /* ═══════════════════════════════════════════
