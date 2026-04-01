@@ -956,28 +956,16 @@ a {
   color: var(--color-accent);
 }
 
-.btn--kakao {
-  background: var(--color-kakao);
-  color: #3a1d1d;
-  padding: 0.75rem 1.75rem;
-  border-radius: var(--radius-sm);
-  font-weight: 400;
-}
-
-.btn--kakao:hover {
-  filter: brightness(0.95);
-}
-
-.btn--naver {
-  background: var(--color-naver);
+.btn--google {
+  background: var(--color-google);
   color: var(--color-white);
   padding: 0.75rem 1.75rem;
   border-radius: var(--radius-sm);
   font-weight: 400;
 }
 
-.btn--naver:hover {
-  filter: brightness(0.9);
+.btn--google:hover {
+  filter: brightness(0.95);
 }
 
 /* ═══════════════════════════════════════════
