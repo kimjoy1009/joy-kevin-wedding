@@ -767,7 +767,7 @@ a {
 }
 
 .location__copy {
-  margin-bottom: var(--spacing-lg);
+  margin-bottom: 0;
 }
 
 .location__map {
