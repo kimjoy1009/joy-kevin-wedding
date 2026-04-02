@@ -789,6 +789,7 @@ a {
   justify-content: center;
   align-items: center;
   gap: 12px;
+  margin-bottom: var(--spacing-md); 
 }
 
 .location__parking {
