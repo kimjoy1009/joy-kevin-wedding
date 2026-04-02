@@ -151,7 +151,11 @@
       <p class="location__tel" id="locationTel"></p>
     </div>
 
-    <div class="location__links animate-item" data-animate="fade-up">
+    <div class="location__map animate-item" data-animate="scale-in">
+      <img class="location__map-img" id="locationMapImg" src="" alt="약도" loading="lazy">
+    </div>
+
+     <div class="location__links animate-item" data-animate="fade-up">
       <a class="btn btn--text location__copy" id="copyAddressBtn" href="javascript:void(0)">
         <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
           <rect x="9" y="9" width="13" height="13" rx="2"/>
@@ -160,10 +164,6 @@
         주소 복사</a>
 
       <a class="btn btn--google" id="googleMapBtn" href="#" target="_blank" rel="noopener">구글맵</a>
-    </div>
-
-    <div class="location__map animate-item" data-animate="scale-in">
-      <img class="location__map-img" id="locationMapImg" src="" alt="약도" loading="lazy">
     </div>
 
     <p class="location__parking">건물 바로 앞 넉넉한 무료 주차 공간이 마련되어 있습니다.</p>
