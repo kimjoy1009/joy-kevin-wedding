@@ -472,7 +472,7 @@ a {
   z-index: 2;
   padding: var(--spacing-lg) var(--spacing-md) calc(var(--spacing-lg) + var(--safe-bottom));
   text-align: center;
-  color: var(--color-white);
+  color: var(--color-text);
 }
 
 .countdown__label {
@@ -481,6 +481,7 @@ a {
   letter-spacing: 3px;
   opacity: 0.7;
   margin-bottom: var(--spacing-sm);
+  color: var(--color-text-light); 
 }
 
 .countdown__timer {
@@ -503,6 +504,7 @@ a {
   font-weight: 300;
   line-height: 1;
   letter-spacing: 2px;
+  color: var(--color-text); 
 }
 
 .countdown__unit {
@@ -511,6 +513,7 @@ a {
   letter-spacing: 2px;
   opacity: 0.6;
   margin-top: 0.25rem;
+  color: var(--color-text-muted); 
 }
 
 .countdown__sep {
@@ -519,6 +522,7 @@ a {
   font-weight: 300;
   opacity: 0.4;
   margin-top: -1rem;
+  color: var(--color-text-muted); 
 }
 
 /* ═══════════════════════════════════════════
@@ -576,7 +580,7 @@ a {
 
 .calendar {
   max-width: 360px;
-  margin: 0 auto var(--spacing-lg);
+  margin: 0 auto var(--spacing-md);
   background: var(--color-bg-card);
   border-radius: var(--radius-lg);
   padding: var(--spacing-md);
