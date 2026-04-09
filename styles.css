@@ -538,11 +538,11 @@ a {
   line-height: 2;
   color: var(--color-text-light);
   white-space: pre-line;
-  margin-bottom: var(--spacing-xl);
+  margin-bottom: var(--spacing-2xl);
 }
 
 .greeting__parents {
-  font-size: 0.875rem;
+  font-size: 0.9375rem;
   font-weight: 300;
   line-height: 2.2;
   color: var(--color-text);
@@ -580,7 +580,7 @@ a {
 
 .calendar {
   max-width: 360px;
-  margin: 0 auto var(--spacing-md);
+  margin: 0 auto var(--spacing-sm);
   background: var(--color-bg-card);
   border-radius: var(--radius-lg);
   padding: var(--spacing-md);
