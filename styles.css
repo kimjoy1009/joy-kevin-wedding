@@ -806,7 +806,7 @@ a {
 .location__parking {
   font-size: 0.8125rem;
   font-weight: 300;
-  color: var(--color-text-muted);
+  color: var(--color-text);
   line-height: 1.6;
 }
 
