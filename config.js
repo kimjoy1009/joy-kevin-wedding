@@ -54,7 +54,8 @@ const CONFIG = {
   // ── 우리의 이야기 ──
   story: {
     title: "참석 여부",
-    content: "식사 및 좌석 준비를 위해 참석 여부 회신 부탁드립니다."
+    content: "식사 및 좌석 준비를 위해 참석 여부 회신 부탁드립니다.",
+    link: "https://docs.google.com/forms/d/e/1FAIpQLSebirfW_9ynjpakWdeuW84zhXWiW8WD3N0qw7mM-qGUTDOf3w/viewform?usp=header"
   },
 
   // ── 오시는 길 ──
