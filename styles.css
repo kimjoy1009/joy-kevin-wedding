@@ -513,7 +513,7 @@ a {
   letter-spacing: 2px;
   opacity: 0.6;
   margin-top: 0.25rem;
-  color: var(--color-text-muted); 
+  color: var(--color-text-light); 
 }
 
 .countdown__sep {
@@ -522,7 +522,7 @@ a {
   font-weight: 300;
   opacity: 0.4;
   margin-top: -1rem;
-  color: var(--color-text-muted); 
+  color: var(--color-text-light); 
 }
 
 /* ═══════════════════════════════════════════
