@@ -689,6 +689,12 @@ a {
   cursor: pointer;
 }
 
+.story__photo-item:only-child {
+  margin: 0 auto;
+  max-width: 360px;
+  width: 100%;
+}
+
 .story__photo-item img {
   width: 100%;
   aspect-ratio: 4 / 3;
@@ -806,7 +812,7 @@ a {
 .location__parking {
   font-size: 0.8125rem;
   font-weight: 300;
-  color: var(--color-text);
+  color: var(--color-text-light);
   line-height: 1.6;
 }
 
