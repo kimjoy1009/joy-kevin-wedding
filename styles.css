@@ -673,7 +673,7 @@ a {
   line-height: 2;
   color: var(--color-text-light);
   white-space: pre-line;
-  margin-bottom: var(--spacing-xl);
+  margin-bottom: var(--spacing-lg);
 }
 
 .story__photos {
@@ -700,8 +700,8 @@ a {
 }
 
 .storyActionWrap {
-  margin-top: -0.5rem;
-  margin-bottom: 2rem;
+  margin-top: 1rem;
+  margin-bottom: 3rem;
 }
 
 /* ═══════════════════════════════════════════
