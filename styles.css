@@ -481,7 +481,7 @@ a {
   letter-spacing: 3px;
   opacity: 0.7;
   margin-bottom: var(--spacing-sm);
-  color: var(--color-text-light); 
+  color: var(--color-text); 
 }
 
 .countdown__timer {
@@ -513,7 +513,7 @@ a {
   letter-spacing: 2px;
   opacity: 0.6;
   margin-top: 0.25rem;
-  color: var(--color-text-light); 
+  color: var(--color-text); 
 }
 
 .countdown__sep {
