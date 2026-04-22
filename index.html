@@ -85,7 +85,6 @@
         <h2 class="section__title animate-item" data-animate="fade-up">예식 일시</h2>
         <div class="calendar animate-item" data-animate="scale-in" id="calendarGrid"></div>
       <div class="countdown animate-item" data-animate="fade-up" id="countdown">
-        <p class="countdown__label" id="countdownLabel"></p>
         <div class="countdown__timer">
           <div class="countdown__item">
             <span class="countdown__number" id="countDays">0</span>
@@ -108,6 +107,7 @@
           </div>
         </div>
       </div>
+         <p class="countdown__label" id="countdownLabel"></p>
         <div class="calendar-actions animate-item" data-animate="fade-up">
           <a class="btn btn--outline" id="googleCalBtn" href="#" target="_blank" rel="noopener">
             <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="4" width="18" height="18" rx="2"/><path d="M16 2v4M8 2v4M3 10h18M8 14h.01M12 14h.01M16 14h.01M8 18h.01M12 18h.01"/></svg>
@@ -185,7 +185,7 @@
         <div class="accordion animate-item" data-animate="fade-up">
           <button class="accordion__trigger" id="groomAccordion" aria-expanded="false">
             <span class="accordion__icon">&#9835;</span>
-            <span>신랑측 계좌번호</span>
+            <span>신랑측</span>
             <svg class="accordion__arrow" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
           </button>
           <div class="accordion__panel" id="groomAccordionPanel">
@@ -197,7 +197,7 @@
         <div class="accordion animate-item" data-animate="fade-up">
           <button class="accordion__trigger" id="brideAccordion" aria-expanded="false">
             <span class="accordion__icon">&#9835;</span>
-            <span>신부측 계좌번호</span>
+            <span>신부측</span>
             <svg class="accordion__arrow" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
           </button>
           <div class="accordion__panel" id="brideAccordionPanel">
