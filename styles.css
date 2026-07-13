@@ -991,6 +991,7 @@ a {
 .btn--google {
   background: #000;
   color: #fff;
+  border: 1px solid #000;
   font-size: 0.8125rem;
   display: inline-flex;
   align-items: center;
@@ -1000,7 +1001,8 @@ a {
 }
 
 .btn--google:hover {
-  filter: brightness(0.95);
+  background: #333;
+  border-color: #333;
 }
 
 .btn--rsvp {
