@@ -632,7 +632,7 @@
       const btn = e.target.closest('.account-item__copy');
       if (!btn) return;
       const text = btn.dataset.account;
-      copyToClipboard(text, '계좌번호가 복사되었습니다');
+      copyToClipboard(text, '이메일주소가 복사되었습니다');
     });
   }
 
