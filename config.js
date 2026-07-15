@@ -65,10 +65,10 @@ const CONFIG = {
   // ── 마음 전하실 곳 ──
   accounts: {
     groom: [
-      { role: "신랑", name: "김지윤", bank: "E-transfer:", number: "core_1006@hotmail.com" }
+      { role: "신랑", name: "김지윤", bank: "e-Transfer:", number: "core_1006@hotmail.com" }
     ],
     bride: [
-      { role: "신부", name: "김조이", bank: "E-transfer:", number: "kimjoy1009@gmail.com" }
+      { role: "신부", name: "김조이", bank: "e-Transfer:", number: "kimjoy1009@gmail.com" }
     ]
   },
 
